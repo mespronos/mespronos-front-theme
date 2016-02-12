@@ -1,0 +1,11 @@
+{
+    "name": "mespronos/mespronos_front_theme",
+    "description": "Drupal 8 theme to use as base for a website build with MesPronos",
+    "require": {
+    	"composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "mespronos_front_theme"
+    },
+    "type":"drupal-theme"
+}
