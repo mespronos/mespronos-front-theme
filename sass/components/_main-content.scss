@@ -1,0 +1,37 @@
+@media all and (min-width: 851px) {
+  .main-content {
+    float: left; /* LTR */
+    position: relative;
+  }
+  [dir="rtl"] .main-content {
+    float: right;
+  }
+  .layout-two-sidebars .main-content {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+  }
+  .layout-one-sidebar .main-content {
+    width: 70%;
+  }
+  .layout-no-sidebars .main-content {
+    width: 100%;
+  }
+  .layout-sidebar-first .main-content {
+    margin-left: 30%; /* LTR */
+    margin-right: 0; /* LTR */
+  }
+  [dir="rtl"] .layout-sidebar-first .main-content {
+    margin-left: 0;
+    margin-right: 30%;
+  }
+  .layout-sidebar-second .main-content {
+    margin-right: 30%; /* LTR */
+    margin-left: 0; /* LTR */
+  }
+  [dir="rtl"] .layout-sidebar-second .main-content {
+    margin-right: 0;
+    margin-left: 30%;
+  }
+}
+
