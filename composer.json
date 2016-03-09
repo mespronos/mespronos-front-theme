@@ -1,5 +1,5 @@
 {
-    "name": "mespronos/mespronos_front_theme",
+    "name": "mespronos/mespronos_front",
     "description": "Drupal 8 theme to use as base for a website build with MesPronos",
     "require": {
     	"composer/installers": "~1.0"
