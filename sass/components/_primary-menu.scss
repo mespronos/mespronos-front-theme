@@ -1,0 +1,15 @@
+@media all and (min-width: 461px) and (max-width: 900px) {
+  .region-primary-menu {
+    ul.menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .menu-item {
+        width: 30%;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 901px) {
+}
