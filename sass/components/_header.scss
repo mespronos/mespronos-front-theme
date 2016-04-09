@@ -1,5 +1,29 @@
 header#header {
   nav#block-menuducomptedelutilisateur {
     float : right;
+    li.menu-item {
+      a {
+        font-size: 1.1em;
+        margin : 10px 5px;
+        background-color: $color-primary;
+        padding : 4px;
+        border-radius: 3px;
+        color: black;
+        &:hover {
+          text-decoration: none;
+          background-color: darken($color-primary,5%);
+        }
+      }
+    }
+  }
+  div#block-mespronos-front-branding {
+    .site-branding__text {
+      margin-bottom: 1em;
+      .site-branding__name {
+        a {
+          color : black;
+        }
+      }
+    }
   }
 }

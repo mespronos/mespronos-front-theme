@@ -1,4 +1,11 @@
+@import "variables";
+@import "colors";
+
 @import "components/main-content";
 @import "components/header";
 @import "components/sidebar";
 @import "components/primary-menu";
+
+a > img {
+  text-decoration: none;
+}
