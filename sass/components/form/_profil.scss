@@ -1,0 +1,24 @@
+form#user-form {
+  .form-type-email,
+  .form-type-textfield,
+  .form-type-password {
+    display: flex;
+    flex-wrap: wrap;
+    label {
+      line-height: 40px;
+      width : 200px;
+    }
+    input {
+      width : 200px;
+      height : 40px;
+      line-height: 40px;
+    }
+    div.password-confirm {
+      width : 100%;
+    }
+    div.description {
+      margin-left: 5px;
+      padding-top : 10px;
+    }
+  }
+}
