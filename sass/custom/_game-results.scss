@@ -1,0 +1,21 @@
+tr.score_found {
+  background-color: $color-awesome;
+  &:hover {
+    background-color: darken($color-awesome,20%);
+    color : white;
+  }
+}
+tr.winner_found {
+  background-color: $color-cool;
+  &:hover {
+    background-color: darken($color-cool,20%);
+    color : white;
+  }
+}
+tr.participation {
+  background-color: $color-bof;
+  &:hover {
+    background-color: darken($color-bof,20%);
+    color : white;
+  }
+}
